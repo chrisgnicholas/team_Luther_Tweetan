@@ -2,19 +2,16 @@ from eep153_tools.sheets import read_sheets
 import pandas as pd
 import wbdata
 import plotly.graph_objects as go
-import ipywidgets as widgets
-from IPython.display import display
-import re
-
-import nbformat
-
 import cufflinks as cf
 
-cf.go_offline()
+# necessary for some reason to work in VSCode on MAC
+import nbformat  
 
+# suppress huge amount of warnings importing wbank datasets
 import warnings
-
 warnings.filterwarnings("ignore")
+
+cf.go_offline()
 
 
 def get_clean_sheet(key: str, sheet: str = None):
