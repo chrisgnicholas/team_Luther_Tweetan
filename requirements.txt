@@ -22,3 +22,5 @@ eep153_tools >= 0.11
 python-gnupg
 ConsumerDemands
 sqlalchemy
+wbdata
+cufflinks
