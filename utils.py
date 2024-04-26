@@ -1,6 +1,20 @@
 from eep153_tools.sheets import read_sheets
 import pandas as pd
 import wbdata
+import plotly.graph_objects as go
+import ipywidgets as widgets
+from IPython.display import display
+import re
+
+import nbformat
+
+import cufflinks as cf
+
+cf.go_offline()
+
+import warnings
+
+warnings.filterwarnings("ignore")
 
 
 def get_clean_sheet(key: str, sheet: str = None):
