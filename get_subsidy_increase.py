@@ -91,7 +91,7 @@ def build_expenditures_with_subsidy(subsidy: int):
                                     if len(item_cost) > 0:
                                         total_exp += float(expense[col])
 
-                            new_expense = total_exp + (3807 * (infants + young_kids))
+                            new_expense = total_exp + ((3807 * subsidy) * (infants + young_kids))
                             percent_increase = new_expense / total_exp
                             increased_expenditures.append(percent_increase)
 
@@ -107,3 +107,7 @@ def get_mean_increase(subsidy: int):
     mean_increase = ((total_all_increases / len(increased_expenditures)) - 1) * 100
 
     return mean_increase
+
+if __name__ == '__main__':
+    foo = build_expenditures_with_subsidy(1)
+    print (foo)
