@@ -4,6 +4,7 @@ hholds = {}
 expenditures_lookup = {}
 increased_expenditures = []
 
+# a matrix to find households with identical characteristics
 # hh_matrix = [[{} for _ in range(20)] for _ in range(20)]
 
 
