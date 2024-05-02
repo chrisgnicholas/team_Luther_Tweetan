@@ -55,7 +55,7 @@ with open("expenditures.csv") as xcsv:
         expenditures_lookup[row["i"]] = these_expenditures
 
 
-def build_expenditures_with_subsidy(subsidy: int):
+def build_expenditures_with_subsidy(subsidy: float):
     """Build up a matrix of households by number of infants, young_kids,
     and expenditures.
 
@@ -68,6 +68,7 @@ def build_expenditures_with_subsidy(subsidy: int):
 
     with open("hh.csv") as csvfile:
         reader = csv.DictReader(csvfile)
+        increased_expenditures.clear()
         for row in reader:
             infants, young_kids, check_string = get_kids(row)
             matrix_entry = (row["i"], row["t"], check_string)
@@ -97,7 +98,7 @@ def build_expenditures_with_subsidy(subsidy: int):
 
 
 # now get the average increase
-def get_mean_increase(subsidy: int):
+def get_mean_increase(subsidy: float):
     """Get the mean increase in food budgets for households"""
     build_expenditures_with_subsidy(subsidy)
     total_all_increases = 0.0
@@ -109,5 +110,7 @@ def get_mean_increase(subsidy: int):
     return mean_increase
 
 if __name__ == '__main__':
-    foo = build_expenditures_with_subsidy(1)
+    foo = get_mean_increase(1.0)
+    print (foo)
+    foo = get_mean_increase(0.0)
     print (foo)
