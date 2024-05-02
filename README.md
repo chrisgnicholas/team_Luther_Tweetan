@@ -1,16 +1,16 @@
 This is Luther_Tweetan's team repository.
 
-We examine the potential of uniformly introducing fortified beans and millet into the Ugandan diet,
-and examine an alternative, extremely targeted intervention costing $1US/week/child in terms of
-it's potential to reduce the 'Disability Adjusted Life Years' (DALYs) of Ugandan children.
+We examine the potential of uniformly introducing fortified beans and millet into the Ugandan diet, coming from the 'HarvestPlus' program:
+https://www.harvestplus.org/
+and examine an alternative, extremely targeted "nutrient pack" intervention costing ~$1 US/week/child, in terms of its potential to reduce the 'Disability Adjusted Life Years' (DALYs) of Ugandan children.
 
-Roughly the nutritional content of supplements:
+Our nutrient pack is based upon the 20g "Lipid-based Nutrient Supplement (LNS-SQ) paste" package of:
 https://supply.unicef.org/s0000323.html
 
-Cost and how they are distributed:
+Our cost of $1/week and effectiveness is based upon:
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10564609/
 
-The Global Burden of Disease Visualization tools:
+and the documentation provided in the misc/SQ-LNS.pdf document, as well as the Global Burden of Disease Visualization tools:
 https://vizhub.healthdata.org/gbd-results/
 
 
@@ -27,4 +27,7 @@ Files:
 
     utils.py:
 	support routines for notebooks
+
+	misc/ 
+		various documents of the Ugandan national nutritional situation and strategy, and technical information about the effectiveness of SQ-LNS interventions on children.
 	
