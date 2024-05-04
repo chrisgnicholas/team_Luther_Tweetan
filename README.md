@@ -4,7 +4,7 @@ We examine the potential of uniformly introducing fortified beans and millet int
 https://www.harvestplus.org/
 and examine an alternative, extremely targeted "nutrient pack" intervention costing ~$1 US/week/child, in terms of its potential to reduce the 'Disability Adjusted Life Years' (DALYs) of Ugandan children.
 
-If we’d had more time, we would have explored adding a nutrition pack as a new FCT item, with an expense of $0.15 USD, run the minimal adequate diet calculations of Project2, and looked at the differences. That would have given us a basis to explore public outreach focused on avoidable DALYs in children, to shift overall household's utility function in favor the nutrition packs versus current expenditures.
+If we’d had more time, we would have explored adding a nutrition pack as a new FCT item, with an expense of $0.15 USD, run the minimal adequate diet calculations of Project2, and looked at the differences. That would have given us a basis to explore public outreach focused on avoidable DALYs in children, to shift overall household's utility function in favor the nutrition packs versus current expenditures. However, we would have still been challenged to create demand curves and deadweight cost curves, given that we have no expenditure data for this new, hypothetical FCT item.
 
 Our nutrient pack is based upon the 20g "Lipid-based Nutrient Supplement (LNS-SQ) paste" package of:
 https://supply.unicef.org/s0000323.html
